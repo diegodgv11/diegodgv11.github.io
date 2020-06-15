@@ -72,6 +72,18 @@ p {
     box-sizing: border-box;
 }
 
+@media (max-width: 1000px){
+    .navigation-bar h1{
+        font-size: 2em;
+    }
+    .navigation-bar{
+        display: block;
+    }
+    .title{
+        font-size: 2em;
+    }
+}
+
 .navigation-bar h1 {
     color: #fff;
 }
