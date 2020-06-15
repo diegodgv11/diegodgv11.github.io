@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
+    margin: 3px 50px;
+    font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald';
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #2f3640;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+h3 {
+    color: #2f3542;
+    margin-left: 10px;
+}
+
+p {
+    color: #2d3436;
+    text-align: justify;
+    font-family: 'Roboto Condensed';
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.comparative-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8em;
+}
+
+.image, .img-example {
+    width: 350px;
+    transition: 0.5s;
+}
+
+.image:hover, .img-example:hover {
+    transform: scale(1.1);
+}
+
+.img-example {
+    margin-top: 30px;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    background: #2980b9;
+    height: 15vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.navigation-bar h1 {
+    color: #fff;
+}
+
+.navigation-bar div a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+.navigation-bar div a:hover {
+    text-shadow: 2px 2px #2c3e50;
+}
+
+.div {
+    height: 2px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: #808080;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    background: #2980b9;
+    height: 10vh;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon {
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.logo-icon:hover {
+    transform: rotateY(360deg);
+}
